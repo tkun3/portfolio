@@ -31,7 +31,7 @@ const deadline = "Written in C and MQX to run on a FRDM-K64F microcontroller. Th
 
 const robot = "VEX components were utilized to build the structure of the robot. Everything aside from the microcontroller and motor controller was a vex component. A motor controller with an h-bridge was designed and manufactured to be layed on top of the microcontroller. The system then utilized IR sensors to track black tape layed out to depict maze, and to find the exit. ";
 
-const guitar = "I wanted a portable battery powered guitar amp but was too cheap to purchase one of the over priced ones avaiable on amazon. I looked up a simple LM386 audio amplifier based circuit, and soldered the components together to get a nice little amplifier.";
+const guitar = "A portable battery powered guitar amp was something I wanted for a while. I looked up a simple LM386 audio amplifier based circuit, and soldered the components together to get a nice little amplifier.";
 
 const addressbook = "A simple Laravel based LAMP stack with varying address book parameters which could be accessed via a browser or android client.";
 

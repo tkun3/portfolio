@@ -46,7 +46,7 @@ class About extends Component {
 					<CarouselHome />
 					<Title title="About me" />
 					<p>
-						I'm a 4th year Computer Engineering student at the University of Victoria. I loved drawing and designing any number of things since I was young and was lucky enough to figure out my passion for engineering near the end of high school. Since then I've been polishing and gathering new skills to further my career in the tech world with various personal and group projects pursued with friends.
+						I'm a 4th year Computer Engineering student at the University of Victoria. I enjoyed drawing and designing since I was young and became interested in engineering near the end of high school. Since then I've been polishing and gathering new skills to further my career in the tech world with various personal and group projects pursued with friends.
 						I love web development and high level UI design, and designing/building systems that can be utilized to interact with the real world. 
                  		<br /><br />
 	                    I gathered some experience working for a private school's technology department as a summer job, which lead to the opportunity to work part-time at a tech company called PARC Systems inc. which I am currently working at alternating between

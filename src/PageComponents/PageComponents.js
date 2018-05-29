@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { Button, Modal, ModalHeader, ModalBody, ModalFooter } from 'reactstrap';
+import { Button, Modal, ModalHeader, ModalBody, ModalFooter, Collapse, Card, CardBody} from 'reactstrap';
 
 import {
   Carousel,
@@ -59,28 +59,45 @@ export class Project extends Component{
 	}
 }
 
-export class SimpleProjectDisplay extends Component{
+export class Experience extends Component{
 	render(){
-		return(
-			<div className="simpleContainer">
-			<Row>
-				<Col lg="3">
+		return{
+			
+		}
+	}
+}
+
+export class SimpleProjectDisplay extends Component{
+  constructor(props) {
+    super(props);
+    this.toggle = this.toggle.bind(this);
+    this.state = { collapse: false };
+  }
+
+  toggle() {
+    this.setState({ collapse: !this.state.collapse });
+  }
+
+  render() {
+    return (
+      <div>
+        <Button className="projectTitle" color="primary" onClick={this.toggle}>{this.props.title}</Button>
+        <Collapse isOpen={this.state.collapse}>
+     		<Row className="projectDesc">
+ 				<Col lg="5">
 					<Modal1 directory={this.props.directory}>
 						<img className="simpleProjectImage mx-auto d-block rounded" src={this.props.directory}/>
 					</Modal1>
 				</Col>
-				<Col>
-					<h3 className="imageText">{this.props.title}</h3>
-					<p className="projectDesc">
-						{this.props.description}
-					</p>
-				</Col>
-			</Row>
-			</div>
-		);
-	}
+       			<Col>
+            		{this.props.description}
+            	</Col>
+          	</Row>
+        </Collapse>
+      </div>
+    );
+  }
 }
-
 
 export class Projectv1 extends Component{
 	render(){

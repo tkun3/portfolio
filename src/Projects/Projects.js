@@ -47,7 +47,7 @@ class Projects extends Component{
 					<p className="alert1">*Though I've contributed to other projects, these are ones I implemented from start to finish</p>
 					<Title title="Projects"/>
 
-					<SimpleProjectDisplay directory="./images/takumapimlott.png" title="This Portfolio Website" description={desc[3]}/>
+					<SimpleProjectDisplay directory="./images/takumapimlott.png" title="Personal Portfolio Website" description={desc[3]}/>
 					<SimpleProjectDisplay directory="./images/parcsystems.ca.png" title="Parcsystems.ca" description={desc[0]}/>
 					<SimpleProjectDisplay directory="./images/logparse.png" title="Mail Gateway Log Parse Tool" description={desc[1]}/>
 					<SimpleProjectDisplay directory="./images/rat.png" title="Distributed Investment Platform" description={desc[2]}/>

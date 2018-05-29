@@ -53,7 +53,7 @@ class Navtop extends Component{
 					<Link to="/about"><NavLink className="navLinks">ABOUT</NavLink></Link>
 				</NavItem>
 				<NavItem>
-					<Link to="/projects"><NavLink className="navLinks">PROJECTS</NavLink></Link>
+					<Link to="/portfolio"><NavLink className="navLinks">PORTFOLIO</NavLink></Link>
 				</NavItem>
 
             </Nav>

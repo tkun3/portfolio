@@ -30,7 +30,7 @@ class App extends Component {
     return(
       <Router>
         <Switch>
-          <Route path="/projects" component={Projects}/>
+          <Route path="/portfolio" component={Projects}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/about" component={About}/>
           <Route path="/" component={About} />

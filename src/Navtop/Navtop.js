@@ -55,6 +55,9 @@ class Navtop extends Component{
 				<NavItem>
 					<Link to="/portfolio"><NavLink className="navLinks">PORTFOLIO</NavLink></Link>
 				</NavItem>
+        <NavItem>
+          <Link to="/ece499/about"><NavLink className="navLinks">ECE499</NavLink></Link>
+        </NavItem>
 
             </Nav>
           </Collapse>

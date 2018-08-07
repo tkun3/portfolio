@@ -7,6 +7,8 @@ import About from './About/About';
 import Projects from './Projects/Projects';
 import Gallery from './Gallery/Gallery';
 import Contact from './Contact/Contact';
+import ECE499 from './ECE499/About/About499';
+import Implementation from './ECE499/Implementation/Implementation';
 
 //Import CSS
 //import '../src/css/materialize.css';
@@ -31,8 +33,10 @@ class App extends Component {
       <Router>
         <Switch>
           <Route path="/portfolio" component={Projects}/>
+          <Route path="/ece499/about" component={ECE499}/>
           <Route path="/contact" component={Contact}/>
           <Route path="/about" component={About}/>
+          <Route path="/implementation" component={Implementation}/>
           <Route path="/" component={About} />
         </Switch>
       </Router>

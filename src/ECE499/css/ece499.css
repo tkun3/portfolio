@@ -1,0 +1,129 @@
+.display{
+	margin-top:58px;
+
+	width: 100%;
+	min-height:300px;
+	height: 470px;
+	overflow:hidden;
+
+	background-image: url("../../images/display.jpg");
+	
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.displayGeneric{
+	margin-top:58px;
+
+	width: 100%;
+	min-height:300px;
+	height: 280px;
+	overflow:hidden;
+
+	background-image: url("../../images/dataInt.jpg");
+	
+	background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.titleContainer499Generic{
+	margin-top: 100px;
+	text-align:center;
+	padding: 10px;
+
+
+}
+
+.displayImage{
+	min-width: 768px;
+	width: 100%;
+
+}
+
+.titleContainer499{
+	margin-top: 180px;
+	text-align:center;
+	padding: 10px;
+
+
+}
+
+.mainBody{
+	height:1000px;
+}
+
+.titleButton{
+	font-size: 20px;
+
+
+}
+
+.textBox1{
+
+}
+
+.img1{
+	-webkit-filter: invert(100%);
+	filter: invert(100%);
+	width: 135px;
+	border: 2px solid black;
+	border-radius: 25px;
+	padding:10px;
+
+}
+
+.center{
+
+	text-align:center;
+}
+
+.slogan{
+
+	text-align:center;
+
+}
+
+.line{
+	margin-top:25px;
+	margin-bottom:30px;
+	border-bottom:1px solid white;
+}
+
+h3{
+	text-align: center;
+}
+
+h5{
+	color: #cccccc !important;
+	text-align: center;
+}
+
+.grey{
+	color: #cccccc !important;
+	font-size: 18px;
+
+}
+
+.footer{
+	height:50px;
+	width:100%;
+	background-color: #343a40 !important;
+}
+
+.playerCon{
+	max-width:500px;
+}
+
+.center1{
+	margin:0 auto;
+}
+
+.rail{
+	width:70%;
+
+}
+

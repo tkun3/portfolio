@@ -41,7 +41,7 @@ class About499 extends Component{
 				<Row>
 					<div className="slogan">
 					<h4 className="grey">
-						This Visual Encryption project attempts to apply a secondary form of encryption to Visual
+						This visual encryption project attempts to apply a secondary form of encryption to visual
 						data on a device's screen, and decrypt it in real time through the use of a camera.
 					</h4>
 					</div>
